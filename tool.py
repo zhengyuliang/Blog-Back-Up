@@ -30,10 +30,10 @@ def list_img_file(directory):
     # print old_list
     new_list = []
     for filename in old_list:
-        name,fileformat = filename.split(".")
+        name, fileformat = filename.split(".")
         if fileformat.lower() == "jpg" or fileformat.lower() == "png" or fileformat.lower() == "gif":
             new_list.append(filename)
-    #print new_list
+    # print new_list
     return new_list
 
 
@@ -69,25 +69,25 @@ def compress(choose, des_dir, src_dir, file_list):
         img.thumbnail((int(w/scale), int(h/scale)))
         img.save(des_dir + infile)
 def compress_photo():
-    '''调用压缩图片的函数
-    '''
-    src_dir, des_dir = "../photos/", "../min_photos/"
+   '''调用压缩图片的函数
+   '''
+   src_dir, des_dir = "photos/", "min_photos/"
 
-    if directory_exists(src_dir):
-        if not directory_exists(src_dir):
-            make_directory(src_dir)
-        # business logic
-        file_list_src = list_img_file(src_dir)
-    if directory_exists(des_dir):
-        if not directory_exists(des_dir):
-            make_directory(des_dir)
-        file_list_des = list_img_file(des_dir)
-        # print file_list
-    '''如果已经压缩了，就不再压缩'''
-    for i in range(len(file_list_des)):
-        if file_list_des[i] in file_list_src:
-            file_list_src.remove(file_list_des[i])
-    compress('4', des_dir, src_dir, file_list_src)
+   if directory_exists(src_dir):
+       if not directory_exists(src_dir):
+           make_directory(src_dir)
+       # business logic
+       file_list_src = list_img_file(src_dir)
+   if directory_exists(des_dir):
+       if not directory_exists(des_dir):
+           make_directory(des_dir)
+       file_list_des = list_img_file(des_dir)
+       # print file_list
+   '''如果已经压缩了，就不再压缩'''
+   for i in range(len(file_list_des)):
+       if file_list_des[i] in file_list_src:
+           file_list_src.remove(file_list_des[i])
+   compress('4', des_dir, src_dir, file_list_src)
 
 def handle_photo():
     '''根据图片的文件名处理成需要的json格式的数据
@@ -95,7 +95,7 @@ def handle_photo():
     -----------
     最后将data.json文件存到博客的source/photos文件夹下
     '''
-    src_dir, des_dir = "../photos/", "../min_photos/"
+    src_dir, des_dir = "photos/", "min_photos/"
     file_list = list_img_file(src_dir)
     list_info = []
     for i in range(len(file_list)):
@@ -128,9 +128,8 @@ def handle_photo():
             list_info[-1]['arr']['type'].append('image')
     list_info.reverse()  # 翻转
     final_dict = {"list": list_info}
-    json_string=json.dumps(final_dict)
-    with open("../../zhengyuliang.github.io/source/photos/data.json","w") as fp:
-        json.dump(json_string, fp)
+    with open("../zhengyuliang.github.io/source/photos/data.json","w") as fp:
+        json.dump(final_dict, fp)
 
 def cut_photo():
     """裁剪算法
@@ -138,7 +137,7 @@ def cut_photo():
     ----------
     调用Graphics类中的裁剪算法，将src_dir目录下的文件进行裁剪（裁剪成正方形）
     """
-    src_dir = "../photos/"
+    src_dir = "photos/"
     if directory_exists(src_dir):
         if not directory_exists(src_dir):
             make_directory(src_dir)
@@ -173,3 +172,6 @@ if __name__ == "__main__":
     compress_photo()   # 压缩图片，并保存到mini_photos文件夹下
     git_operation()    # 提交到github仓库
     handle_photo()     # 将文件处理成json格式，存到博客仓库中
+
+
+
