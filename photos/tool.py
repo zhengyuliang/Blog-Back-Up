@@ -129,7 +129,7 @@ def handle_photo():
     list_info.reverse()  # 翻转
     final_dict = {"list": list_info}
     with open("../../zhengyuliang.github.io/source/photos/data.json","w") as fp:
-        json.dump(final_dict, fp)
+        json.loads(final_dict, fp)
 
 def cut_photo():
     """裁剪算法

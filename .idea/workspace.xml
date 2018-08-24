@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da809dbd-1cd3-4d9f-bc86-13520ed731b2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/photos/tool.py" afterPath="$PROJECT_DIR$/photos/tool.py" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,8 +39,8 @@
       <file leaf-file-name="tool.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/photos/tool.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="111" column="80" lean-forward="false" selection-start-line="111" selection-start-column="80" selection-end-line="111" selection-end-column="80" />
+            <state relative-caret-position="312">
+              <caret line="131" column="34" lean-forward="true" selection-start-line="131" selection-start-column="34" selection-end-line="131" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -138,12 +138,12 @@
       <option name="presentableId" value="Default" />
       <updated>1534995776093</updated>
       <workItem from="1534995777694" duration="6073000" />
-      <workItem from="1535079200820" duration="3826000" />
+      <workItem from="1535079200820" duration="4795000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9899000" />
+    <option name="totallyTimeSpent" value="10868000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
@@ -222,8 +222,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/photos/tool.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="111" column="80" lean-forward="false" selection-start-line="111" selection-start-column="80" selection-end-line="111" selection-end-column="80" />
+        <state relative-caret-position="312">
+          <caret line="131" column="34" lean-forward="true" selection-start-line="131" selection-start-column="34" selection-end-line="131" selection-end-column="34" />
           <folding />
         </state>
       </provider>
