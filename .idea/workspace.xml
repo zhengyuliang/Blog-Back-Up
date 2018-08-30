@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da809dbd-1cd3-4d9f-bc86-13520ed731b2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photos/2a6a93c00e6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photos/heard-img.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/min_photos/2017-08-23_aa.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/min_photos/20177-08-23_aaaaa.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photos/2017-08-23_aa.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photos/20177-08-23_aaaaa.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tool.py" afterPath="$PROJECT_DIR$/tool.py" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,8 +24,8 @@
       <file leaf-file-name="tool.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tool.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="643">
-              <caret line="173" column="16" lean-forward="false" selection-start-line="173" selection-start-column="4" selection-end-line="173" selection-end-column="16" />
+            <state relative-caret-position="618">
+              <caret line="172" column="6" lean-forward="false" selection-start-line="172" selection-start-column="6" selection-end-line="172" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -121,12 +124,12 @@
       <workItem from="1535333313441" duration="794000" />
       <workItem from="1535350308912" duration="1338000" />
       <workItem from="1535505193981" duration="611000" />
-      <workItem from="1535591142000" duration="3802000" />
+      <workItem from="1535591142000" duration="4711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21006000" />
+    <option name="totallyTimeSpent" value="21915000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
@@ -203,8 +206,8 @@
     <entry file="file://$PROJECT_DIR$/photos/ImageProcess.py" />
     <entry file="file://$PROJECT_DIR$/tool.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="173" column="16" lean-forward="false" selection-start-line="173" selection-start-column="4" selection-end-line="173" selection-end-column="16" />
+        <state relative-caret-position="618">
+          <caret line="172" column="6" lean-forward="false" selection-start-line="172" selection-start-column="6" selection-end-line="172" selection-end-column="6" />
           <folding />
         </state>
       </provider>
